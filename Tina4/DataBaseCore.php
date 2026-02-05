@@ -149,7 +149,7 @@ trait DataBaseCore
      */
     final public function fetchOne(string $sql)
     {
-        $records = $this->fetch($sql)->records;
+        $records = $this->fetch($sql, 1, 0)->records;
         if (is_array($records) && count($records) > 0) {
             return $records[0];
         } else {
