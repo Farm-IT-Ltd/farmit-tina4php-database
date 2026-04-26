@@ -1,5 +1,5 @@
 {
-    "name": "farmit/tina4php-database",
+    "name": "tina4stack/tina4php-database",
     "description": "Tina4 PHP Database Module",
     "license": "MIT",
     "autoload": {
@@ -40,6 +40,6 @@
     },
     "require": {
         "ext-json": "*",
-        "farmit/tina4php-debug": "^2.0"
+        "tina4stack/tina4php-debug": "^2.0"
     }
 }
