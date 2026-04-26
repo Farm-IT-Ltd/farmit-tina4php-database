@@ -13,8 +13,7 @@
             "Tina4/DataField.php",
             "Tina4/DataRecord.php",
             "Tina4/DataResult.php",
-            "Tina4/SQL.php",
-            "FarmIT/aliases.php"
+            "Tina4/SQL.php"
         ],
         "classmap": [
             "Tina4/"
